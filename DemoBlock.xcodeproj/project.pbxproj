@@ -12,6 +12,11 @@
 		F5AA56051D9386AC0093B7F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA56031D9386AC0093B7F1 /* Main.storyboard */; };
 		F5AA56071D9386AC0093B7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AA56061D9386AC0093B7F1 /* Assets.xcassets */; };
 		F5AA560A1D9386AC0093B7F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA56081D9386AC0093B7F1 /* LaunchScreen.storyboard */; };
+		F5AA561D1D93BF880093B7F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA561B1D93BF880093B7F1 /* TableViewCell.swift */; };
+		F5AA561E1D93BF880093B7F1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AA561C1D93BF880093B7F1 /* TableViewCell.xib */; };
+		F5AA56221D93E0C00093B7F1 /* Images.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5AA56211D93E0C00093B7F1 /* Images.plist */; };
+		F5F9ACFB1D9513B0008476F5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F9ACFA1D9513B0008476F5 /* Item.swift */; };
+		F5F9ACFD1D951F8A008476F5 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F9ACFC1D951F8A008476F5 /* banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F5AA56061D9386AC0093B7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5AA56091D9386AC0093B7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5AA560B1D9386AC0093B7F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AA561B1D93BF880093B7F1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F5AA561C1D93BF880093B7F1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F5AA56211D93E0C00093B7F1 /* Images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Images.plist; sourceTree = "<group>"; };
+		F5F9ACFA1D9513B0008476F5 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F5F9ACFC1D951F8A008476F5 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		F5AA55FE1D9386AC0093B7F1 /* DemoBlock */ = {
 			isa = PBXGroup;
 			children = (
+				F5F9ACFC1D951F8A008476F5 /* banner.jpg */,
 				F5AA55FF1D9386AC0093B7F1 /* AppDelegate.swift */,
+				F5F9ACFA1D9513B0008476F5 /* Item.swift */,
 				F5AA56011D9386AC0093B7F1 /* ViewController.swift */,
+				F5AA561B1D93BF880093B7F1 /* TableViewCell.swift */,
 				F5AA56031D9386AC0093B7F1 /* Main.storyboard */,
 				F5AA56061D9386AC0093B7F1 /* Assets.xcassets */,
 				F5AA56081D9386AC0093B7F1 /* LaunchScreen.storyboard */,
 				F5AA560B1D9386AC0093B7F1 /* Info.plist */,
+				F5AA561C1D93BF880093B7F1 /* TableViewCell.xib */,
+				F5AA56211D93E0C00093B7F1 /* Images.plist */,
 			);
 			path = DemoBlock;
 			sourceTree = "<group>";
@@ -124,8 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5AA560A1D9386AC0093B7F1 /* LaunchScreen.storyboard in Resources */,
+				F5AA561E1D93BF880093B7F1 /* TableViewCell.xib in Resources */,
 				F5AA56071D9386AC0093B7F1 /* Assets.xcassets in Resources */,
+				F5AA56221D93E0C00093B7F1 /* Images.plist in Resources */,
 				F5AA56051D9386AC0093B7F1 /* Main.storyboard in Resources */,
+				F5F9ACFD1D951F8A008476F5 /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F9ACFB1D9513B0008476F5 /* Item.swift in Sources */,
+				F5AA561D1D93BF880093B7F1 /* TableViewCell.swift in Sources */,
 				F5AA56021D9386AC0093B7F1 /* ViewController.swift in Sources */,
 				F5AA56001D9386AC0093B7F1 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +319,7 @@
 				F5AA56101D9386AC0093B7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

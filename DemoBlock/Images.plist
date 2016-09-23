@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 0</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c4.staticflickr.com/9/8212/29223720923_599d862635_m.jpg</string>
+		<key>ten</key>
+		<string>Kurt Zouma</string>
+		<key>vitri</key>
+		<string>Trung vệ</string>
+	</dict>
+	<key>item 1</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c5.staticflickr.com/9/8529/29557048140_6503867c47_m.jpg</string>
+		<key>ten</key>
+		<string>Willian Borges da Silva</string>
+		<key>vitri</key>
+		<string>Tiền vệ cánh</string>
+	</dict>
+	<key>item 2</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c5.staticflickr.com/9/8440/29557048860_2050530237_m.jpg</string>
+		<key>ten</key>
+		<string>John Terry</string>
+		<key>vitri</key>
+		<string>Trung vệ</string>
+	</dict>
+	<key>item 3</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c5.staticflickr.com/9/8363/29557049140_a05753db3a_m.jpg</string>
+		<key>ten</key>
+		<string>Oscar dos Santos Emboaba Júnior</string>
+		<key>vitri</key>
+		<string>Tiền vệ</string>
+	</dict>
+	<key>item 4</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c6.staticflickr.com/6/5343/29223721573_15106ff812_m.jpg</string>
+		<key>ten</key>
+		<string>David Luiz</string>
+		<key>vitri</key>
+		<string>Trung vệ</string>
+	</dict>
+	<key>item 5</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c6.staticflickr.com/9/8105/29850071365_a45286f33b_m.jpg</string>
+		<key>ten</key>
+		<string>Eden Hazard</string>
+		<key>vitri</key>
+		<string>Tiền vệ</string>
+	</dict>
+	<key>item 6</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c4.staticflickr.com/9/8472/29850071595_ab82314491_m.jpg</string>
+		<key>ten</key>
+		<string>Cesc Fàbregas</string>
+		<key>vitri</key>
+		<string>Tiền vệ</string>
+	</dict>
+	<key>item 7</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c2.staticflickr.com/9/8296/29223722073_0490251aba_m.jpg</string>
+		<key>ten</key>
+		<string>Thibaut Courtois</string>
+		<key>vitri</key>
+		<string>Thủ môn</string>
+	</dict>
+	<key>item 8</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c6.staticflickr.com/9/8245/29850072125_8a4ecba479_m.jpg</string>
+		<key>ten</key>
+		<string>Diego Costa</string>
+		<key>vitri</key>
+		<string>Tiền đạo</string>
+	</dict>
+	<key>item 9</key>
+	<dict>
+		<key>anh</key>
+		<string>https://c8.staticflickr.com/6/5650/29850072415_0319816a23_m.jpg</string>
+		<key>ten</key>
+		<string>Gary Cahill</string>
+		<key>vitri</key>
+		<string>Trung vệ</string>
+	</dict>
+</dict>
+</plist>

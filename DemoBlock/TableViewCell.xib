@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="DemoBlock" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PqO-Sy-sCN">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="dWX-Ke-Ucl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vị trí : tiền vệ cánh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yix-pb-rvj">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eden Hazard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-Du-w55">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PdP-Du-w55" firstAttribute="trailing" secondItem="Yix-pb-rvj" secondAttribute="trailing" id="55K-Fa-Gnn"/>
+                    <constraint firstItem="Yix-pb-rvj" firstAttribute="top" secondItem="PdP-Du-w55" secondAttribute="bottom" constant="8" symbolic="YES" id="Gtz-w0-dAh"/>
+                    <constraint firstItem="PdP-Du-w55" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="19" id="S0q-AW-KgE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="PqO-Sy-sCN" secondAttribute="bottom" constant="-9" id="b6R-F8-6hm"/>
+                    <constraint firstItem="PqO-Sy-sCN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-9" id="bEK-4f-mgr"/>
+                    <constraint firstItem="PqO-Sy-sCN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-7" id="eQA-aF-v6K"/>
+                    <constraint firstItem="Yix-pb-rvj" firstAttribute="leading" secondItem="PqO-Sy-sCN" secondAttribute="trailing" constant="8" symbolic="YES" id="wKE-om-Oc0"/>
+                    <constraint firstItem="PdP-Du-w55" firstAttribute="leading" secondItem="PqO-Sy-sCN" secondAttribute="trailing" constant="8" symbolic="YES" id="xe0-sJ-YUV"/>
+                    <constraint firstItem="PdP-Du-w55" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="xyQ-ih-9mg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="anh" destination="PqO-Sy-sCN" id="KzY-ue-TNY"/>
+                <outlet property="ten" destination="PdP-Du-w55" id="7Xv-bi-ub7"/>
+                <outlet property="vitri" destination="Yix-pb-rvj" id="g2E-s6-SCp"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="13.5"/>
+        </tableViewCell>
+    </objects>
+</document>
